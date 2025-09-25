@@ -3,41 +3,24 @@ import React from 'react';
 const Visualizations: React.FC = () => {
   const projects = [
     {
-      title: "Modern Villa",
-      description: "Contemporary residential design with sustainable materials",
+      title: "Residence familiale",
+      description: "Nos médias en 3D permettent de visualliser vos maisons familiales avant qu'elles soient meme construites. Même les améoliroations que vous voulez visualiser sont possibles",
       image: "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg",
-      category: "Residential"
+      category: "Residentiel"
     },
     {
-      title: "Urban Complex",
-      description: "Mixed-use development in downtown district",
+      title: "Complexe résidentiel",
+      description: "Des plus grand batiments pour accuellir plusieurs familles et ou individus",
       image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
-      category: "Commercial"
+      category: "Residentiel"
     },
     {
-      title: "Zen Garden House",
-      description: "Minimalist architecture blending indoor and outdoor spaces",
+      title: "Batiment & complexes divers",
+      description: "Et tout autre projet divers, usines, fermes, previualisez ce dont vous avez besoin.",
       image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg",
       category: "Residential"
     },
-    {
-      title: "Corporate Headquarters",
-      description: "Glass and steel tower with innovative facade system",
-      image: "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg",
-      category: "Commercial"
-    },
-    {
-      title: "Eco Resort",
-      description: "Sustainable hospitality design integrated with nature",
-      image: "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
-      category: "Hospitality"
-    },
-    {
-      title: "Cultural Center",
-      description: "Public architecture celebrating local heritage",
-      image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg",
-      category: "Public"
-    }
+    
   ];
 
   return (
@@ -45,11 +28,11 @@ const Visualizations: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-            Project Visualizations
+            Visualization de projets
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Every great building begins with an even greater vision. 
-            We create photorealistic 3D renders that help you see the future.
+            Chaque projet commence avec une idée, nous vous amenont à sa prochaine étape essentielle 
+            de la VISUALISATON permettant de plus concretiser vos investissements, batiments, produits, nous vous accompagnerons.
           </p>
         </div>
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
+
 const Navigation: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,10 +29,23 @@ const Navigation: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 lg:py-6">
           <div 
-            className="text-2xl font-bold cursor-pointer transition-colors hover:text-gray-600"
-            onClick={() => scrollToSection('hero')}
-          >
-            Studio
+          className="flex items-center space-x-2 cursor-pointer transition-colors hover:text-gray-600"
+          onClick={() => scrollToSection('hero')}
+        >
+          <img 
+            src="../RXSlogo.svg"       // <-- replace with your actual logo path
+            alt="Logo"
+            className="h-6 w-10s object-contain"  // adjust size as you want
+          />
+          <span>
+            
+          </span>
+          <span>
+            
+          </span>
+          <span className="text-1xl font-bold">
+            Digital Lab
+          </span>
           </div>
           
           {/* Desktop Navigation */}

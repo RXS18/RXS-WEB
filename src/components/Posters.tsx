@@ -3,39 +3,40 @@ import React from 'react';
 const Posters: React.FC = () => {
   const posters = [
     {
-      title: "Architecture Exhibition 2024",
-      description: "Contemporary design showcase",
-      image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg",
+      title: "Smart Cargo",
+      description: "Service de livraison international.",
+      image: "../img/KenBin0.png",
       size: "large"
     },
+    
     {
-      title: "Sustainable Living",
-      description: "Green building campaign",
-      image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      title: "City Food",
+      description: "Menu pour City food, restaurant.",
+      image: "../img/BenoitCityFood.png",
       size: "medium"
     },
     {
-      title: "Urban Planning Forum",
-      description: "City development conference",
-      image: "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg",
+      title: "Plug Debt",
+      description: "A modern clothing brand",
+      image: "../img/JoeAllan.png",
       size: "medium"
     },
     {
-      title: "Design Awards 2024",
-      description: "Annual recognition event",
-      image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg",
+      title: "Flocon Doré",
+      description: "La vente de pop corn",
+      image: "../img/KakwisiAnge.png",
       size: "large"
     },
     {
-      title: "Innovation in Construction",
-      description: "Technology symposium",
-      image: "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg",
-      size: "small"
+      title: "la journée mondiale des sols. CADASTRE AGRICOL DU NORK-KIVU",
+      description: "Affiche simple informartive",
+      image: "../img/BeneditcBusole1.png",
+      size: "medium"
     },
     {
-      title: "Heritage Preservation",
-      description: "Conservation initiative",
-      image: "https://images.pexels.com/photos/161758/governor-s-mansion-montgomery-alabama-grand-staircase-161758.jpeg",
+      title: "Monica's Delicacies",
+      description: "A bakery",
+      image: "../img/MonicaTsongo.png",
       size: "small"
     }
   ];
@@ -45,11 +46,10 @@ const Posters: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-            Visual Communication
+            Communication Visuelle
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Bold designs that capture attention and communicate your message. 
-            From event posters to brand campaigns, we make ideas unforgettable.
+            Des visuels qui attirent l'attention de votre future clientelle, nous vous proposons des Posters, Affiches, Vidéos publicitaire qui favorisent vos produits et services
           </p>
         </div>
 
